@@ -32,12 +32,7 @@ body {
 
 }
 
-.firstpic {
-    grid-row: 1 ;
-    grid-column: 2;
-    display: flex;
-    flex-direction:column
-}
+
 
 .firstsquare {
 
@@ -48,11 +43,17 @@ body {
     padding: 20px;
     font-family: sans-serif;
     color: white;
-
-
-    
-
 }
+
+.firstpic {
+    grid-row: 1 ;
+    grid-column: 2;
+    display: flex;
+    flex-direction:column
+}
+
+
+
 
 .secondpic{
     grid-row: 1;
@@ -110,4 +111,64 @@ p, h1 {
     grid-column: 4;
     display: flex;
     flex-direction:column
+}
+
+
+.box3 {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 600px;
+    gap: 20px;
+    margin-bottom: 100px;
+
+}
+
+.seventhpic{
+
+    grid-row: 1 ;
+    grid-column: 2;
+    display: flex;
+    flex-direction:column
+}
+
+
+.eightpic{
+    grid-row: 1;
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.ninthpic{
+    grid-row: 1;
+    grid-column: 4;
+    display: flex;
+    flex-direction:column
+}
+
+
+.box4 {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 600px;
+    gap: 20px;
+    margin-bottom: 100px;
+
+}
+
+.tenthpic {
+    grid-row: 1 ;
+    grid-column: 3 / 4;
+    display: flex;
+    flex-direction:column
+}
+
+.eleventhpic{
+    grid-row: 1;
+    grid-column: 4/5;
+    display: flex;
+    flex-direction: column;
+
 }
