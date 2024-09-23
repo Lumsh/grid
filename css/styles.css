@@ -152,23 +152,38 @@ p, h1 {
     width: auto;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 600px;
+    grid-template-rows: 800px;
     gap: 20px;
     margin-bottom: 100px;
-
+   
+    
+    
 }
 
 .tenthpic {
+   background-color: white;
     grid-row: 1 ;
     grid-column: 3 / 4;
     display: flex;
     flex-direction:column
+    
+    
+    
+
 }
 
 .eleventhpic{
+    background-color: white;
     grid-row: 1;
     grid-column: 4/5;
     display: flex;
     flex-direction: column;
 
 }
+
+.textcolor{
+
+    color: black;
+}
+
+
