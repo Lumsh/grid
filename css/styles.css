@@ -193,9 +193,9 @@ footer {
     width: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 250px;
+    grid-template-rows: 200px;
     gap: 25px;
-    margin-bottom: 100px;
+    
 
 
 }
