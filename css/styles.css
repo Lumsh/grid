@@ -68,7 +68,7 @@ body {
     flex-direction:column
 }
 
-.textstyle {
+p, h1 {
     font-family: sans-serif;
     color: white;
 
@@ -76,36 +76,21 @@ body {
 }
 
 
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-   
-    
-    
-    
-
-    
-    
-    
-   
-   
-   
-   
-
-
+.box2 {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 600px;
+    gap: 20px;
+    margin-top: 50px;
 
 }
+
+
+
+
+
+
 
 
 
